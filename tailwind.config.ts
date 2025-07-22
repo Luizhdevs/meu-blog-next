@@ -28,7 +28,8 @@ export default {
 					600: '#002E3A',
 					700: '#00222B',
 					800: '#00171D',
-					900: '#F0F2F4'  // Cor backgruod total
+					900: '#F0F2F4',  // Cor backgruod total
+					1000: 'rgba(232, 234, 238, 1)'  // Cor backgruod total
 				},
 				blue: {
 					100: '#4DD0E1',
@@ -71,6 +72,9 @@ export default {
 				'body-md': ['16px', { lineHeight: '150%', fontWeight: '400' }],
 				'body-sm': ['14px', { lineHeight: '150%', fontWeight: '400' }],
 				'body-xs': ['12px', { lineHeight: '150%', fontWeight: '400' }],
+
+				// Body - Tag
+				'body-tag': ['12px', { lineHeight: '100%', fontWeight: '400' }],
 
 				// Action - Inter
 				'action-md': ['16px', { lineHeight: 'normal', fontWeight: '500' }],
