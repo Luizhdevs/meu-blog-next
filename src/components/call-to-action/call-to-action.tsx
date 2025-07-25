@@ -4,8 +4,10 @@ import { Button } from "../ui/button"
 
 export const CallToAction = () => {
     return (
-        <section className="py-24 bg-gradient-to-b from-primary-400 to-primary-600">
-            <div className="container">
+        <section className="relative py-24 bg-gradient-to-b from-primary-400 to-primary-600">
+            <div className="absolute inset-0 bg-[url('/backgound-footer.svg')] bg-cover bg-center bg-no-repeat opacity-90"></div>
+
+            <div className="container relative">
                 <div className="flex flex-col items-center gap-6 text-center">
 
                     <div className="p-4 bg-gray-400 w-fit rounded-full">
