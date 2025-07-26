@@ -1,7 +1,7 @@
 import { ArrowRight, Clock, Store } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import { Button } from "../ui/button"
+import { Button } from "../../../../components/ui/button"
 
 export const HeroScection = () => {
     return (
@@ -17,12 +17,12 @@ export const HeroScection = () => {
                         <div>
                             <div className="flex items-center gap-2">
                                 <Clock className="text-blue-600 h-4 w-4" />
-                                <span className="text-gray-500">Crie o seu site em menos de 5 min</span>
+                                <span className="text-gray-500 text-body-md">Crie o seu site em menos de 5 min</span>
                             </div>
 
                             <div className="flex items-center gap-2">
                                 <Store className="text-blue-600 h-4 w-4" />
-                                <span className="text-gray-500">Acompanhe e otimize seu negócio online</span>
+                                <span className="text-gray-500 text-body-md">Acompanhe e otimize seu negócio online</span>
                             </div>
                         </div>
 
